@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -12,14 +18,25 @@ body {
   color: #4d5ae5;
   text-transform: uppercase;
 }
-.head-span-logo {
-  color: #2e2f42;
+.head-logo-nav .web {
+  color: #4d5ae5;
+}
+.head-logo-nav {
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: block;
+  width: 115px;
+  height: 24px;
+  margin: 0;
+}
+
+.head-logo-nav .head-span-logo {
+  color: #2e2f42;
 }
 .link-nav {
   color: #2e2f42;
@@ -55,12 +72,47 @@ body {
 .contakts:focus {
   color: #404bbf;
 }
+.cont-navbar {
+  display: flex;
+  padding: 0 156px;
+  height: 72px;
+  min-width: 1140px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffff;
+  margin-bottom: 0px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+}
 .address {
   font-style: normal;
 }
 
+.ul-link-nav {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.ul-link-address {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
 .section-page-title {
   background-color: #2e2f42;
+  min-width: 1140px;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  flex-direction: column;
 }
 
 .page-title {
@@ -88,6 +140,11 @@ body {
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  box-shadow: none;
+  outline: none;
 }
 .page-title-button:hover {
   background-color: #404bbf;
@@ -98,13 +155,33 @@ body {
   cursor: pointer;
 }
 .section-features {
-  background-color: #f4f4fd;
+  background-color: #ffff;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+}
+.flex-f {
+  display: flex;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+  margin: 60px 156px 120px 156px;
+}
+.block-f {
+  display: block;
+  width: 264px;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
 }
 .section-our-portfolio {
   background-color: #f4f4fd;
 }
 .section-our-team {
   background-color: #f4f4fd;
+}
+.features {
+  display: none;
 }
 .section-title {
   font-family: Roboto;
@@ -179,4 +256,11 @@ body {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
 }
