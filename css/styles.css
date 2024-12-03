@@ -3,24 +3,18 @@
 *::after {
   box-sizing: border-box;
 }
-
+*img {
+  display: block;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
-.head-logo {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: #4d5ae5;
-  text-transform: uppercase;
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
-.head-logo-nav .web {
-  color: #4d5ae5;
-}
+
 .head-logo-nav {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -32,13 +26,15 @@ body {
   display: block;
   width: 115px;
   height: 24px;
-  margin: 0;
+  margin-right: 76px;
 }
 
 .head-logo-nav .head-span-logo {
   color: #2e2f42;
 }
 .link-nav {
+  padding-top: 24px;
+  padding-bottom: 0;
   color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
@@ -55,7 +51,28 @@ body {
 .link-nav:focus {
   color: #404bbf;
 }
-
+.cont-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container {
+  width: 1158px;
+  margin-bottom: 0px auto;
+  padding: 0 15px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+}
+.ul-link-nav {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
 .contakts {
   color: #434455;
   font-family: Roboto;
@@ -72,32 +89,11 @@ body {
 .contakts:focus {
   color: #404bbf;
 }
-.cont-navbar {
-  display: flex;
-  padding: 0 156px;
-  height: 72px;
-  min-width: 1140px;
-  align-items: center;
-  justify-content: space-between;
 
-  margin-bottom: 0px;
-}
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0px;
-  margin: 0px;
-}
 .address {
   font-style: normal;
 }
 
-.ul-link-nav {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-}
 .ul-link-address {
   display: flex;
   gap: 40px;
