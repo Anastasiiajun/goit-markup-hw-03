@@ -281,12 +281,18 @@ p {
   margin-bottom: 72px;
 }
 .section-our-portfolio {
-  margin-top: 120px;
-  margin-bottom: 120px;
   align-items: center;
+  padding: 120px 0 120px 0;
 }
-.card-our-port .title-our-port {
+.title-our-port {
+  margin-bottom: 8px;
   padding-left: 16px;
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .text-portfolio {
   font-size: 16px;
@@ -297,7 +303,8 @@ p {
 }
 .cont-our-port {
   display: flex;
-  gap: 24px;
+  row-gap: 48px;
+  column-gap: 24px;
   margin-top: 72px;
   margin-bottom: 0px;
   flex-wrap: wrap;
@@ -310,21 +317,17 @@ p {
 .card-our-port {
   width: 360px;
   height: 420px;
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
   margin-top: 0px;
 }
-
+.cont-text-port {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 .port-title {
-  margin: 0;
-  padding: 0px;
+  margin-bottom: 72px;
 }
-.footer {
-  background-color: #2e2f42;
-  height: 312px;
-  display: flex;
-}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -333,6 +336,8 @@ p {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-span-logo {
   color: #f4f4fd;
@@ -346,10 +351,12 @@ p {
   height: 72px;
   margin-bottom: 0px;
 }
-.cont-footer {
+.footer {
+  background-color: #2e2f42;
+  height: 312px;
+  display: flex;
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 156px;
   margin: 0px;
   display: block;
   height: 112px;
