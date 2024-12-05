@@ -33,7 +33,7 @@ p {
   justify-content: space-between;
 }
 .container {
-  width: 1158px;
+  min-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -141,6 +141,7 @@ p {
   font-weight: Bold;
   font-size: 56px;
   max-width: 496px;
+  margin-bottom: 48px;
 }
 
 .page-title-button {
@@ -161,6 +162,8 @@ p {
   border-radius: 4px;
   cursor: pointer;
   display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 .page-title-button:hover {
   background-color: #404bbf;
@@ -184,7 +187,7 @@ p {
   margin-right: 10px;
 }
 .block-f {
-  width: calc((100%-3 * 24px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
   gap: 8px;
   padding: 0;
   margin: 0;
