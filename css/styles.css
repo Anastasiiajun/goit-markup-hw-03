@@ -217,14 +217,12 @@ p {
   font-family: Roboto;
   font-size: 36px;
   line-height: 1.11;
-
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
   padding-top: 120px;
-  padding-bottom: 72px;
-  margin: 0px;
+  margin-bottom: 72px;
 }
 
 .title {
@@ -234,7 +232,7 @@ p {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: left;
+  text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   margin-bottom: 8px;
@@ -248,7 +246,8 @@ p {
 
 .section-our-team {
   background-color: #f4f4fd;
-  height: 732px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .card-our-team {
   height: 380px;
@@ -256,15 +255,16 @@ p {
   align-items: center;
   justify-items: center;
   background-color: #ffff;
+  border-radius: 0px 0px 4px 4px;
+}
+.name-our-team {
+  padding: 32px 0;
 }
 .container-our-team {
   gap: 24px;
   margin: 0;
-  padding-top: 0px;
-  padding-right: 156px;
-  padding-bottom: 120px;
-  padding-left: 156px;
   display: flex;
+
   align-items: center;
 }
 
@@ -273,7 +273,7 @@ p {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
+  text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #434455;
