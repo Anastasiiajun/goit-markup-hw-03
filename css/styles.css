@@ -191,7 +191,7 @@ p {
   margin-right: 10px;
 }
 .block-f {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
   gap: 8px;
   padding: 0;
   margin: 0;
@@ -221,7 +221,8 @@ p {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-top: 120px;
+  margin-top: 0;
+  padding: 0;
   margin-bottom: 72px;
 }
 
@@ -248,9 +249,9 @@ p {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
+  margin: 0 auto;
 }
 .card-our-team {
-  height: 380px;
   display: block;
   align-items: center;
   justify-items: center;
@@ -262,10 +263,9 @@ p {
 }
 .container-our-team {
   gap: 24px;
-  margin: 0;
   display: flex;
-
-  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 .text-our-team {
@@ -326,6 +326,8 @@ p {
 }
 .port-title {
   margin-bottom: 72px;
+  padding: 0;
+  margin-top: 0;
 }
 
 .footer-logo {
